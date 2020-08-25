@@ -1,6 +1,6 @@
 # Learning
 
-This repo brings together my attempts at learning programming languages.
+This repo brings together my attempts at learning new languages outside of uni coursework.
 
 - (Modern) C++
   - https://en.cppreference.com/w/cpp/language
@@ -32,6 +32,7 @@ Assorted notes all in Markdown format.
 
 - [Haskell notes](haskell/haskell_features.md)
 - [C++ notes](cpp/README.md)
+- [PureScript notes (non-existent)](purescript/README.md)
 - [Category theory for programmers](bartosz_milewski_blog.md)
 
 ## Related ideas
