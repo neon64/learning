@@ -28,7 +28,11 @@ This repo brings together my attempts at learning programming languages.
 
 ## Pages
 
+Assorted notes all in Markdown format.
 
+- [Haskell notes](haskell/haskell_features.md)
+- [C++ notes](cpp/README.md)
+- [Category theory for programmers](bartosz_milewski_blog.md)
 
 ## Related ideas
 
