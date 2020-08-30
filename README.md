@@ -2,12 +2,13 @@
 
 This repo brings together my attempts at learning new languages outside of uni coursework.
 
-- (Modern) C++
-  - https://en.cppreference.com/w/cpp/language
-  - feels like a monstrous behemoth that I will never understand
-  - I am not a note-taking person. Have tried out some ideas though in my [C++ OpenGL game engine](https://github.com/neon64/cpp_game_engine) repo.
+For selected notes specifically from university coursework, please see [neon64/unimelb_lecture_notes](https://github.com/neon64/unimelb_lecture_notes/).
 
-- Haskell
+## Contents
+
+Assorted notes all in Markdown format.
+
+- [Haskell notes](haskell/haskell_features.md)
     - http://learnyouahaskell.com
     -  Now am doing a subject in Haskell ==> have strong impetus to learn it properly.
     - Type classes
@@ -16,24 +17,21 @@ This repo brings together my attempts at learning new languages outside of uni c
         - analogue: structs in C
     - Monads / `do`-notation
 
-- PureScript
+- [C++ notes](cpp/README.md)
+    - https://en.cppreference.com/w/cpp/language
+    - feels like a monstrous behemoth that I will never understand
+    - I am not a note-taking person. Have tried out some ideas though in my [C++ OpenGL game engine](https://github.com/neon64/cpp_game_engine) repo.
+   
+- [PureScript notes (non-existent)](purescript/README.md)
     - compiles to JavaScript
     - strict evaluation (unlike Haskell)
     - want to understand PureScript-Halogen - a virtual-DOM-based web framework for PureScript
+- [Category theory for programmers](bartosz_milewski_blog.md)
 - OCaml
     - interesting because mix of impure, OOP, as well as functional stuff
     - strict - so has more predictable performance
     - used by Jane Street and a few other companies, but seems like non Jane Street stdlib is lacking (e.g.: Unicode support)
     - a few syntactic oddities that I've found so far (?only 1 letter function arguments?, ?lowercase types?)
-
-## Pages
-
-Assorted notes all in Markdown format.
-
-- [Haskell notes](haskell/haskell_features.md)
-- [C++ notes](cpp/README.md)
-- [PureScript notes (non-existent)](purescript/README.md)
-- [Category theory for programmers](bartosz_milewski_blog.md)
 
 ## Related ideas
 
