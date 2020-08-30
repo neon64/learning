@@ -10,12 +10,6 @@ Assorted notes all in Markdown format.
 
 - [Haskell notes](haskell/haskell_features.md)
     - http://learnyouahaskell.com
-    -  Now am doing a subject in Haskell ==> have strong impetus to learn it properly.
-    - Type classes
-        - analogue: traits in Rust / protocols in Swift / interfaces in Java
-    - Records
-        - analogue: structs in C
-    - Monads / `do`-notation
 
 - [C++ notes](cpp/README.md)
     - https://en.cppreference.com/w/cpp/language
@@ -23,9 +17,6 @@ Assorted notes all in Markdown format.
     - I am not a note-taking person. Have tried out some ideas though in my [C++ OpenGL game engine](https://github.com/neon64/cpp_game_engine) repo.
    
 - [PureScript notes (non-existent)](purescript/README.md)
-    - compiles to JavaScript
-    - strict evaluation (unlike Haskell)
-    - want to understand PureScript-Halogen - a virtual-DOM-based web framework for PureScript
 - [Category theory for programmers](bartosz_milewski_blog.md)
 - OCaml
     - interesting because mix of impure, OOP, as well as functional stuff
