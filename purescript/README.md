@@ -5,3 +5,6 @@ Collecting advice here for my future self, regarding learning PureScript
   - spago worked super easily for me
   - 'package-sets' confused me - aren't they just the same as a central crates.io registry, for example? Why such a fuss.
 
+## Goals
+
+- want to understand PureScript-Halogen - a virtual-DOM-based web framework for PureScript
