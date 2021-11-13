@@ -132,3 +132,44 @@ head . sort $ "hello"
 head $ sort "hello"
 ```
 
+### Summary of differences between functor, applicative and monad
+
+Functor
+- `fmap`
+
+Applicative
+
+- `<*>`
+- `pure`
+
+Monad
+
+- `>>=` (bind)
+- `return`
+
+Here's an example of Haskell IO without "do"-notation
+
+```haskell
+greet = putStr "Hello, "
+        >>=
+        \_ -> getLine
+        >>=
+        \name -> (
+            putStr "Where are you from? "
+            >>=
+            \_ -> getLine
+            >>=
+            \town ->
+                let msg = "..."
+                in putStrLn msg
+        )
+```
+
+Also note that the `let` syntax is different inside `do` notation: namely, `in` is not used:
+
+```haskell
+name <- getLine
+let msg = "Welcome, " ++ name ++ "from " ++ town
+putStrLn msg
+```
+
